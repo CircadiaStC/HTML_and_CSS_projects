@@ -1,0 +1,7 @@
+table {
+	border: 12px solid Crimson;
+}
+td:hover {
+	background-color: DarkBlue;
+	color: Cornsilk;
+}
