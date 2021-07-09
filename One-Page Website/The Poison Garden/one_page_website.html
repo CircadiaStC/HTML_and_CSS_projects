@@ -4,13 +4,16 @@
     <title>The Poison Garden</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="./css/one_page_website.css">
+	<script src="./JS/one_page_website.js" defer></script>
   </head>
+
   <body>
 	<!--NAV-->
 	<div>
-		<div>
+		<div id="link">
 			<ul>
-				<a href="#home" id="link" style="color:DarkRed"><li>HOME</li></a>
+				
+				<a href="#home"  style="color:DarkRed"><li>HOME</li></a>
 				<a href="#gallery" style="color:DarkRed"><li>GALLERY</li></a>
 				<a href="#contact" style="color:DarkRed"><li>CONTACT</li></a>
 			</ul>
@@ -22,8 +25,8 @@
 	<div id="home">
 		<div>
 			<div>
-				<p style="font-family:georgia" style="font-size:36px" >Visit the <span style="color:DarkRed">Deadliest</span> Garden in the World.</p>
-				<p>The sign at the garden gate reads “Do not touch any of the plants, don’t even smell them. There are plants here that can kill you.”</p>
+				<h1>Visit the Deadliest Garden in the World.</h1>
+				<h3>The sign at the garden gate reads “Do not touch any of the plants, don’t even smell them. There are plants here that can kill you.”</h3>
 				<img src="./images/gardengates2.jpg" alt="Garden Gates" style="width:800px;height:200px;">
 			</div>
 		</div>
@@ -32,7 +35,9 @@
 	<!--END HOME-->
 	
 	<!--VIDEO EMBED-->
+	<div id="video">
 	<iframe width="420" height="315" src="https://www.youtube.com/embed/2oCWAiqL0i0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
 	<!--END VIDEO EMBED-->
 	
 	<!--GALLERY-->
@@ -40,90 +45,21 @@
 		<div id="gallery">
 			<h1>Gallery of Infamy</h1>
 			<div>
-			
-				<!--PHOTO-CONTAINER 1-->
-				<div>
-					<div>
-						<img src="./images/plantimage1.jpg" alt="Strychnos nux-vomica" style="width:420px;height:300px;">
-					</div>
-				</div>
-				<!--END PHOTO-CONTAINER 1-->
-				
-				<!--PHOTO-CONTAINER 2-->
-				<div>
-					<div>
-						<img src="./images/plantimage2.jpg" alt="Water Hemlock" style="width:420px;height:300px;">
-						
-					</div>
-				</div>
-				<!--END PHOTO-CONTAINER 2-->
-				
-				<!--PHOTO-CONTAINER 3-->
-				<div>
-					<div>
-						<img src="./images/plantimage3.jpg" alt="Ricinus communis" style="width:420px;height:300px;">
-						
-					</div>
-				</div>
-				<!--END PHOTO-CONTAINER 3-->
-				
-				<!--PHOTO-CONTAINER 4-->
-				<div>
-					<div>
-						<img src="./images/plantimage4.jpg" alt="Digitalis" style="width:420px;height:300px;">
-						
-					</div>
-				</div>
-				<!--END PHOTO-CONTAINER 4-->
-				
-				<!--PHOTO-CONTAINER 5-->
-				<div>
-					<div>
-						<img src="./images/plantimage5.jpg" alt="Atropa belladonna" style="width:420px;height:300px;">
-						
-					</div>
-				</div>
-				<!--END PHOTO-CONTAINER 5-->
-				
-				<!--PHOTO-CONTAINER 6-->
-				<div>
-					<div>
-						<img src="./images/plantimage6.jpg" alt="Brugmansia" style="width:420px;height:300px;">
-						
-					</div>
-				</div>
-				<!--END PHOTO-CONTAINER 6-->
-				
-				<!--PHOTO-CONTAINER 7-->
-				<div>
-					<div>
-						<img src="./images/plantimage7.jpg" alt="Laburnum" style="width:420px;height:300px;">
-						
-					</div>
-				</div>
-				<!--END PHOTO-CONTAINER 7-->
-				
-				<!--PHOTO-CONTAINER 8-->
-				<div>
-					<div>
-						<img src="./images/plantimage8.jpg" alt="Oleander" style="width:420px;height:300px;">
-						
-					</div>
-				</div>
-				<!--END PHOTO-CONTAINER 8-->
-				
-				<!--PHOTO-CONTAINER 9-->
-				<div>
-					<div>
-						<img src="./images/plantimage9.jpg" alt="Abrus precatorius" style="width:420px;height:300px;">
-						
-					</div>
-				</div>
-				<!--END PHOTO-CONTAINER 9-->
-				
+				<div class="grid">
+					
+						<img src="images/img1.jpg"  class="hover-shadow">
+						<img src="images/img2.jpg"  class="hover-shadow">
+						<img src="images/img3.jpg"  class="hover-shadow">
+						<img src="images/img4.jpg"  class="hover-shadow">
+						<img src="images/img5.jpg"  class="hover-shadow">
+						<img src="images/img6.jpg"  class="hover-shadow">
+						<img src="images/img7.jpg"  class="hover-shadow">
+						<img src="images/img8.jpg"  class="hover-shadow">
+						<img src="images/img9.jpg"  class="hover-shadow">
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 		<!--END GALLERY-->
 		
 		<!--RSVP-->

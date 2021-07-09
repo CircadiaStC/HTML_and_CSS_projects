@@ -3,6 +3,87 @@ html {
     font-size: large;
 }
 
+#link    {
+    text-align: left;
+}
+
+body    {
+    background-color: rgb(187, 73, 73) ;
+    text-align: center;
+    margin: 0;
+}
+
+#video  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1  {
+    margin-bottom: 50px;
+}
+
+.grid   {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
+    height: 100vh;
+    
+}
+
+.grid img   {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+#lightbox   {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+#lightbox.active    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    padding: 4px;
+    background-color:crimson;
+    border: 2px solid whitesmoke;
+
+}
+
+
+
+
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
 form input[type="text"] {
     width: 50%;
     margin: 10px auto;
